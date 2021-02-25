@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "nestjs-typeorm": {
+      "type": "library",
+      "root": "libs/nestjs-typeorm",
+      "entryFile": "index",
+      "sourceRoot": "libs/nestjs-typeorm/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/nestjs-typeorm/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
